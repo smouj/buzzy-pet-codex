@@ -1,0 +1,142 @@
+{
+  "name": "Buzzy",
+  "version": "1.0.1",
+  "sprite_version": 1,
+  "description": "A transparent animated fan adaptation of the Theme Park World advisor.",
+  "repository": "https://github.com/smouj/buzzy-pet-codex",
+  "cursor_look_directions": false,
+  "spritesheet": {
+    "path": "assets/buzzy-mascota.png",
+    "sha256": "425476ee25c31a83597ffc9ba3485ddaa0859a8124067e0787ee34c674ed4143",
+    "bytes": 1434613,
+    "width": 1536,
+    "height": 1872,
+    "mode": "RGBA",
+    "cell_width": 192,
+    "cell_height": 208,
+    "columns": 8,
+    "rows": 9
+  },
+  "states": [
+    {
+      "row": 0,
+      "name": "idle",
+      "frames": 6,
+      "durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ]
+    },
+    {
+      "row": 1,
+      "name": "running-right",
+      "frames": 8,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "row": 2,
+      "name": "running-left",
+      "frames": 8,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "row": 3,
+      "name": "waving",
+      "frames": 4,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "row": 4,
+      "name": "jumping",
+      "frames": 5,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "row": 5,
+      "name": "failed",
+      "frames": 8,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ]
+    },
+    {
+      "row": 6,
+      "name": "waiting",
+      "frames": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ]
+    },
+    {
+      "row": 7,
+      "name": "running",
+      "frames": 6,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "row": 8,
+      "name": "review",
+      "frames": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ]
+    }
+  ]
+}

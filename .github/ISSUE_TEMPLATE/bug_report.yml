@@ -1,0 +1,28 @@
+name: Installation or asset problem
+description: Report a problem installing Buzzy or using the distributed files.
+title: '[Bug]: '
+body:
+  - type: markdown
+    attributes:
+      value: 'Do not include credentials, pet IDs, signed URLs or private screenshots.'
+  - type: input
+    id: environment
+    attributes:
+      label: App and operating system
+      placeholder: 'Desktop app, Windows 11; Pets tools available'
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Release version
+      placeholder: v1.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include steps, expected result and exact validation error, if any.
+    validations:
+      required: true
